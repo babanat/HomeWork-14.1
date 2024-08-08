@@ -60,5 +60,6 @@ dots.forEach((dot, index) => {
     sliderLine.style.left = -position + "px";
     dotIndex = index;
     thisSlide(dotIndex);
+    visibleArrow();
   });
 });
